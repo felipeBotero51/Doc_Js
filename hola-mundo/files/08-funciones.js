@@ -36,6 +36,22 @@ console.log('fruta 2:' + f2);
 console.log(restante);  
 }
 
+/*
+Funcion flecha mas optima
+*/
+const sumFleet = (x,y) => {
+    return x + y
+}
+sumFleet(5,6)
+
+/*
+Funcion magica para procesos que se autoinician siempre
+*/
+(function(){
+    return console.log('hola')
+})();
+
+
 frutas('pera','manzana','mango','sapote','durazno');
 var arrayfrutas = ['pera','manzana'];
 frutas(...arrayfrutas,'mango','sapote','durazno'); //con los tres puntos le estoy diciendo que agarre cada posicion como un parametro
