@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicios y funciones</title>
+</head>
+<body>
+    <h1>Ejercicio DOM,Eventos y funciones</h1>
+    <!-- 1. Formulario campos: nombre, Aepllidos, edad
+    2. Boton de enviar el formulario: eventos submit
+    3. mostrar datos por pantalla
+    4. tener un boron que al darle click nos muestra los datos actuales del formulario -->
+    <form action=""  id ="formulario" >
+        <label for="nombre">Introduzca aqui su nombre:</label>
+        <input type="text" name="nombre" id="campo_nombre"><br>
+        <label for="apellido">Introduzca aqui su apellido:</label>
+        <input type="text" name="apellido" id="campo_apellido"><br>
+        <label for="edad">Introduzca aqui su edad:</label>
+        <input type="number" name="edad" id="campo_edad"><br>
+        <button type="submit" id="btnSubir">Subir</button>
+    </form>
+    <div id="resultado">
+        <p id ="m_nombre" >Nombre: <span></span></p>
+        <p id ="m_apellido" >Apellido: <span></span></p>
+        <p id ="m_edad" >Edad: <span></span></p>
+    </div>
+    <script src="files/14-ejercicio.js"></script>
+</body>
+</html>
