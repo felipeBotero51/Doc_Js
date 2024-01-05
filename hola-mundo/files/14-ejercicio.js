@@ -18,6 +18,7 @@ formulario.addEventListener('submit',(event) => {
         //     p.append(dato)
         //     div.append(p)
         // }); 
+        //acceder al spam dentro de cada div
         document.querySelector('#m_nombre span').innerHTML = nombre
         document.querySelector('#m_apellido span').innerHTML = apellido
         document.querySelector('#m_edad span').innerHTML = edad
