@@ -9,11 +9,14 @@ function cambiarColor(){
     if(bg != 'blue') boton.style.background='blue';    
     else boton.style.background='green';   
     boton.style.padding = '10px';
-    boton.style.border = '1px solid #ccc';    
+    //boton.style.border = '10px solid #ccc'; 
+       
 }
 
 // Click
-boton.addEventListener('click',() => cambiarColor());
+boton.addEventListener('click',() => {
+    cambiarColor()
+});
 
 //Mouse Over
 boton.addEventListener('mouseover',() =>{
